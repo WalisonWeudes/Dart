@@ -10,6 +10,5 @@ main() {
   for (String nomes in notas.keys) {
    
       print("o nome dos alunos são $nomes e sua nota é ${notas[nomes]}");
-    
   }
 }
