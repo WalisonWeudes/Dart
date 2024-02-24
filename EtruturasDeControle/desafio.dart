@@ -1,10 +1,14 @@
-import 'dart:io';
 
 main() {
-  for (var i = 0; i < 25; i++) {
-    for (var j = 0; j < i ; j++) {
-      stdout.write("&");
-    }
-    print("\n");
+  var va = '&';
+  for (var i = 0; i < 6; i++) {
+      print(va);
+      va += '&';
+  }
+
+  //resposta
+
+  for (var valor = '&'; valor != '&&&&&&&'; valor+= '&') {
+    print(valor);
   }
 }
